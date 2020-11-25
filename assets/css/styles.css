@@ -4,7 +4,12 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-image: url("../imgs/ignasi_pattern_s.png");
+  background-image: url("../imgs/treesback.jpg");
+}
+
+#about-image {
+  float: left;
+  margin-right: 10px;
 }
 
 html {
@@ -37,32 +42,49 @@ main {
 
 /* NAV START */
 #logo {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Texturina;
 
   /* Typography */
   font-size: 24px;
   font-weight: bold;
-  color: #fff;
+  color: white;
+  padding: 5px;
 
   /* Visual */
-  background: #4aaaa5;
+  background: #c000b6;
 }
 
-/* override bootstrap hover color and border */
-.navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+#logo:hover {
+  color: black;
 }
+
+/* override bootstrap navbar styling*/
+
 
 .navbar {
-  background: white;
+  background: #c000b6;
   border: none;
+  font-family: Texturina;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: black;
 }
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
-  .navbar-header {
-    background-color: #4aaaa5;
+  .navbar {
+    background: #ffcefd;
   }
+  #logo {
+    background: #ffcefd;
+  }
+  
 }
 /* END NAV */
 
@@ -100,15 +122,19 @@ main {
   height: 60px;
 
   /* Visual */
-  background-color: #666;
+  background-color: #c000b6;;
+  color: white;
 }
 
+.text-muted {
+  color: white;
+}
 .text-muted-footer {
   /* Box-model */
   margin-top: 15px;
 
   /* Typography */
-  color: #fff;
+  color: white;
 }
 
 .two-toned-footer-color {
@@ -118,6 +144,13 @@ main {
 
   /* Visual */
   background-color: #4aaaa5;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer {
+    background-color: #ffcefd;
+  }
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
@@ -135,14 +168,6 @@ main {
   color: #4aaaa5;
 }
 
-#about-image {
-  /* Positioning */
-  float: left;
-
-  /* Box-model */
-  width: 200px;
-  margin: 0 20px 10px 0;
-}
 /* END ABOUT-ME PAGE */
 
 
@@ -150,6 +175,15 @@ main {
 .port-image {
   margin: 20px auto;
 }
+
+figcaption {
+  text-align: center;
+  color: black;
+  font-family: Texturina;
+  font-size: 20px;
+}
+
+
 /* END PORTFOLIO PAGE */
 
 
@@ -173,7 +207,7 @@ main {
   color: #fff;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #c000b6;
   border: 0;
 }
 
