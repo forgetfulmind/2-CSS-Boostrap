@@ -2,9 +2,9 @@
 
 
 Screenshot of each page:
-![About Me Page](./assets/imgs/aboutMe.jpg)
-![Portfolio Page](./assets/imgs/portfolio.jpg)
-![Contact Page](./assets/imgs/contact.jpg)
+![About Me Page](./assets/imgs/aboutMe.JPG)
+![Portfolio Page](./assets/imgs/portfolio.JPG)
+![Contact Page](./assets/imgs/contact.JPG)
 
 Github repository location: https://github.com/forgetfulmind/Public-Portfolio
 Deployed Website URL: https://forgetfulmind.github.io/Public-Portfolio/
