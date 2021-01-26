@@ -6,4 +6,5 @@ Screenshot of each page:
 ![Portfolio Page](./imgs/deployed_screencap2.jpg)
 
 Github repository location: https://github.com/forgetfulmind/Public-Portfolio
+<br>
 Deployed Website URL: https://forgetfulmind.github.io/Public-Portfolio/
