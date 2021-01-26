@@ -81,7 +81,9 @@ main {
   font-size: 1vw;
 }
 
-
+.info {
+  margin-left: 1vw;
+}
 
 /* NAV START */
 #logo {
@@ -129,7 +131,9 @@ main {
   .profilePic{
     width: 30vw;
     height: 30vw;
-    margin-left: 27vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .block {
     font-size: 4vw;
@@ -144,6 +148,9 @@ main {
   }
   .subhead {
     font-size: 6vw;
+  }
+  .info {
+    margin-left: 0;
   }
   .projectTitle {
     font-size: 6vw;
@@ -160,7 +167,9 @@ main {
     width: 60vw;
     height: 60vw;
     margin-bottom: 1vh;
-    margin-left: 7vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
