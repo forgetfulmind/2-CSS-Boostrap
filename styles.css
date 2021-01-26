@@ -1,57 +1,86 @@
 /* --- STYLES FOR ALL PAGES --- */
 body {
   /* Typography */
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
+  font-family: Texturina;
+  color: black;
   /* Visual */
-  background-image: url("../imgs/treesback.jpg");
+  background-color:  black;
 }
 
-#about-image {
-  float: left;
-  margin-right: 10px;
+.profilePic{
+  width: 10vw;
+  height: 10vw;
+  border: #4aaaa5;
+  border-width: 6;
+  border-style: solid;
 }
 
-html {
-  /* Positioning */
+.mail {
+  width: 2vw;
+}
+
+.container{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.wrap {
   position: relative;
-
-  /* Box-model */
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* add space for fixed nav */
 main {
-  margin: 80px 0;
+  margin: 4vh 0;
 }
 
 /* create styles for use for all white main boxes */
 .block {
-  background-color: #fff;
-
-  padding: 30px;
-  margin-bottom: 30px;
+  background-color: #fa9ff5;
+  padding: 1vw;
+  padding-left: 2vw;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  font-size: 1.5vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  border:  #4aaaa5;
+  border-width: 6;
+  border-style: solid;
 }
 
 .block-header {
   /* Typography */
-  color: #4aaaa5;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  color: Black;
+  font-family: Texturina;
   font-weight: bold;
+  font-size: 2.5vw;
+  margin-bottom: 1vh;
 }
+
+.subhead {
+  font-size: 2vw;
+}
+
+.textContent {
+  font-size: 1vw;
+}
+
+
 
 /* NAV START */
 #logo {
   font-family: Texturina;
 
   /* Typography */
-  font-size: 24px;
+  font-size: 1vw;
   font-weight: bold;
   color: white;
   padding: 5px;
 
   /* Visual */
-  background: #c000b6;
+  background: #fa9ff5;
 }
 
 #logo:hover {
@@ -60,7 +89,7 @@ main {
 
 /* override bootstrap navbar styling*/
 .navbar {
-  background: #c000b6;
+  background: #fa9ff5;
   border: none;
   font-family: Texturina;
   color: white;
@@ -81,38 +110,44 @@ main {
   }
   #logo {
     background: #ffcefd;
+    font-size: 4vw;
   }
-  
+  .profilePic{
+    width: 30vw;
+    height: 30vw;
+    margin-right: 10vw;
+    margin-left: 25vw;
+  }
+  .block {
+    font-size: 4vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background: #ffcefd;
+  }
+  .block-header {
+    font-size: 6vw;
+    margin-bottom: 1vh;
+    padding-left: 3vw;
+  }
+  .subhead {
+    font-size: 5vw;
+  }
+  .textContent {
+    font-size: 2.45vw;
+  }
+  .mail {
+    width: 6vw;
+  }
+
 }
 /* END NAV */
 
-
-/* CONNECT W/ ME CSS */
-.connect-header {
-  /* Typography */
-  font-size: 25px;
-}
-
-.connect-photo {
-  /* Box-model */
-  width: 55px;
-  height: 55px;
-}
-
-#images {
-  /* Box-model */
-  padding-top: 15px;
-
-  /* Typography */
-  text-align: center;
-}
-/* END CONNECT W/ ME */
 
 
 /* BEGIN FOOTER */
 .footer {
   /* Positioning */
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
 
@@ -121,7 +156,7 @@ main {
   height: 60px;
 
   /* Visual */
-  background-color: #c000b6;;
+  background-color: #fa9ff5;
   color: white;
 }
 
@@ -149,26 +184,13 @@ main {
 @media only screen and (max-width: 767px) {
   .footer {
     background-color: #ffcefd;
+    font-size: 3vw;
   }
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
 
 /* --- PAGE-SPECIFIC STYLES --- */
-
-/* ABOUT-ME PAGE */
-.about-me-header {
-  /* Positioning */
-  margin-bottom: 33px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-
-  /* Typography */
-  font-size: 32px;
-  font-weight: bold;
-  color: #4aaaa5;
-}
-/* END ABOUT-ME PAGE */
-
 
 /* PORTFOLIO PAGE */
 .port-image {
@@ -182,34 +204,3 @@ figcaption {
   font-size: 20px;
 }
 /* END PORTFOLIO PAGE */
-
-
-/* CONTACT FORM PAGE  */
-.form-control {
-  /* give input boxes right angles */
-  border-radius: 0;
-
-  /* keep from horizontally resizing text area */
-  min-width: 100%;
-  max-width: 100%;
-}
-
-.submit-btn {
-  /* Box-model */
-  padding: 15px 30px;
-  font-size: 16px;
-  font-weight: lighter;
-
-  /* Typography */
-  color: #fff;
-
-  /* Visual */
-  background-color: #c000b6;
-  border: 0;
-}
-
-.submit-btn:hover {
-  opacity: .7;
-}
-
-/* END CONTACT FORM PAGE */

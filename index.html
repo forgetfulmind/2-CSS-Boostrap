@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
   <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+  <link rel="stylesheet" href="./styles.css" media="screen">
 
   <!-- Google Font  -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,8 +22,9 @@
 </head>
 
 <body>
+  <div class="wrap">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
+    <div class="container col-12">
       <!-- Brand and toggle get grouped for better mobile display -->
       <a class="navbar-brand" href="index.html" id="logo">Bryan Shay</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
@@ -34,12 +35,9 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link active" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item active">
             <a class="nav-link" href="index.html">About</a>
           </li>
         </ul>
@@ -51,30 +49,36 @@
   <!-- End of navbar -->
 
   <!-- Start of container -->
-  <main class="container">
-    <section class="row">
-      <div class="col-md-9">
-        <article class="block">
-          <h1 class="block-header">About Me</h1>
-          <hr />
-          <div class="row">
-            <div class="col-md-12">
-
-            <!-- Portfolio Image -->
-            <img src="assets/imgs/Face.jpg" alt="Bryan's Face" id="about-image" class="img-fluid"/>      
-              
-            <!-- Portfolio Biography -->
-              <p>Hello my name is Bryan Shay and I am a 31 year old Marketing Coordinator from Cleveland, Ohio. Before the shut down, I worked in Downtown Cleveland and had been for almost a decade. The best part about working downtown is all the tasy food you can eat for lunch. I signed up for the CWRU Coding Bootcamp to increase my job competency as well as open new avenues for my career. 
-                I have always been fascinated by technology and I don't see any end in site for the evolution of what we will be capable of doing. I am very interested in seeing where VR and AR lead us.
-              </p>
-              <br>
-              <p>I have lots of hobbies that I like to do for fun. Painting is my current favorite, followed closely by gardening. This summer I grew tomatoes, basil, eight different types of peppers, and pickling cucumbers. I am also a novice blade smith, my roomate and I built a propane forge and have been learning the art! It's an amazing amount of fun.</p>
-            </div>
-          </div>   
-        </article>
-      </div>
-    </section>
-  </main>
+    <div>
+        <div class="block">
+              <div class="row block-header">About Me</div>
+              <hr />
+                  <div class="row">
+                      
+                            <!-- Portfolio Image -->
+                            <img src="./imgs/Face.jpg" alt="Bryan's Face" class="profilePic"/>      
+                      
+                            <div class="col-8">
+                                  <!-- Portfolio Biography -->
+                                  <div class="subhead"><strong>Bryan Shay</strong></div>
+                                  <div>Current Position:</div>
+                                  <div class= "textContent">Marketing Coordinator | Telos Alliance
+                                  </div>
+                                  <div>Contact Information:</div>
+                                    <div class= "textContent">
+                                          Email: <a href="mailto:forgetfulmind@gmail.com">forgetfulmind@gmail.com</a>
+                                          <a href="mailto:forgetfulmind@gmail.com"><img class="mail" src="./imgs/Mail-icon.png"><img></a>
+                                    </div>
+                                    <div class= "textContent">
+                                      Phone: Please contact via email to set up a phone call.
+                                   </div>
+                                  
+                                    
+                            </div>
+                   </div>   
+          </div>
+     </div>
+</div>
   <!-- End of container -->
 
   <!-- Start of footer -->

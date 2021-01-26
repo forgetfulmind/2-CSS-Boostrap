@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
  
   <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+  <link rel="stylesheet" href="./styles.css" media="screen">
 
  <!-- Google Font  -->
  <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,97 +22,101 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand" href="index.html" id="logo">Bryan Shay</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-      </nav>
-      <!-- End of navbar -->
+<div class="wrap">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container col-12">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Bryan Shay</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
 
   <!-- Start of container -->
-  <div class="container">
-    <main class="row">
-      <div class="col-md-8">
-        <article class="block">
-          <h1 class="block-header">Portfolio</h1>
-          <hr />
-          <div class="row">
-            <!-- First portfolio item -->
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <a href="https://scratch.mit.edu/projects/447301835" target="_blank">
-                <figure>
-                  <img class="img-fluid port-image" src="./assets/imgs/folio1.png" alt="cheezy poofs game">
-                  <figcaption>MIT Scratch Game</figcaption>
-                </figure>
-              </a>
-            </div>
-            <!-- Second portfolio Item -->
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <a href="https://forgetfulmind.github.io/Koalas-Are-Superior" target="_blank">
-                <figure>
-                  <img class="img-fluid port-image" src="./assets/imgs/koalindex.jpg" alt="Koala">
-                  <figcaption>Koalindex</figcaption>
-                </figure>
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <!-- Third portfolio item -->
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <a href="https://forgetfulmind.github.io/1-Code-Refactor/" target="_blank">
-                <figure>
-                  <img class="img-fluid port-image" src="./assets/imgs/hmwrk1.png" alt="Horiseon">
-                  <figcaption>First Homework</figcaption>
-                </figure>
-              </a>
-            </div>
-            <!-- Fourth portfolio item -->
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <a href="https://www.linkedin.com/in/bryan-shay-31799995" target="_blank">
-                <figure>
-                  <img class="img-fluid port-image" src="./assets/imgs/Linkedin-Logo.png" alt="Linkedin Profile">
-                  <figcaption>Linkedin Profile</figcaption>
-                </figure>
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <!-- Fifth portfolio item -->
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <a href="https://github.com/forgetfulmind?tab=repositories" target="_blank">
-                <figure>
-                  <img class="img-fluid port-image" src="./assets/imgs/github.png" alt="Pickle for a Minute">
-                  <figcaption>GitHub Repository</figcaption>
-                </figure>
-              </a>
-            </div>
-          </div>
-        </article>
+  <div>
+    <div class="block">
+          <div class="row block-header">Portfolio</div>
+                  <hr />
+                  <div class="row">
+                    <!-- First portfolio item -->
+                    <div class="col-3">
+                      <a href="https://www.moodtoob.com" target="_blank">
+                        <figure>
+                          <img class="img-fluid port-image" src="./imgs/moodtoob_happy.png" alt="moodtoob">
+                          <figcaption>Moodtoob</figcaption>
+                        </figure>
+                      </a>
+                    </div>
+
+                    <!-- Second portfolio Item -->
+                    <div class="col-3">
+                      <a href="https://forgetfulmind.github.io/Koalas-Are-Superior" target="_blank">
+                        <figure>
+                          <img class="img-fluid port-image" src="./imgs/koalindex.jpg" alt="Koala">
+                          <figcaption>Koalindex</figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                 
+                    <!-- Third portfolio item -->
+                    <div class="col-3">
+                      <a href="https://forgetfulmind.github.io/1-Code-Refactor/" target="_blank">
+                        <figure>
+                          <img class="img-fluid port-image" src="./imgs/hmwrk1.png" alt="Horiseon">
+                          <figcaption>First Homework</figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                    <!-- Fourth portfolio item -->
+                    <div class="col-3">
+                      <a href="https://www.linkedin.com/in/bryan-shay-31799995" target="_blank">
+                        <figure>
+                          <img class="img-fluid port-image" src="./imgs/Linkedin-Logo.png" alt="Linkedin Profile">
+                          <figcaption>Linkedin Profile</figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  
+                    <!-- Fifth portfolio item -->
+                    <div class="col-3">
+                      <a href="https://github.com/forgetfulmind?tab=repositories" target="_blank">
+                        <figure>
+                          <img class="img-fluid port-image" src="./imgs/github.png" alt="Pickle for a Minute">
+                          <figcaption>GitHub Repository</figcaption>
+                        </figure>
+                      </a>
+                    </div>
+                  </div>
+                  
       </div>
-    </main>
   </div>
-  <!-- End of container -->
+</div>
+<!-- End of container -->
+
+
+
+
+
+
 
   <!-- Start of footer -->
   <footer class="footer">
