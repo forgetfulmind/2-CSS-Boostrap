@@ -1,5 +1,7 @@
 # Bryan Shay's Online Coding Portfolio
 
+Simple portfolio page for a coding student looking to show off their current portfolio.
+
 
 Screenshot of each page:
 ![About Me Page](./imgs/deployed_screencap1.jpg)
