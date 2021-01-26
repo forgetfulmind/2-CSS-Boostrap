@@ -129,7 +129,7 @@ main {
   .profilePic{
     width: 30vw;
     height: 30vw;
-    margin-left: 24.5vw;
+    margin-left: 27vw;
   }
   .block {
     font-size: 4vw;
@@ -160,7 +160,7 @@ main {
     width: 60vw;
     height: 60vw;
     margin-bottom: 1vh;
-    margin-left: 6vw;
+    margin-left: 7vw;
   }
 
 }
