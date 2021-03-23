@@ -8,11 +8,16 @@ body {
 }
 
 .profilePic{
-  width: 13vw;
-  height: 13vw;
+  width: auto;
+  height: 14vw;
   border: #4aaaa5;
   border-width: 6;
   border-style: solid;
+  border-radius: 15px;
+}
+
+.icon{
+  margin-right: 20px;
 }
 
 .screenCap{
@@ -22,6 +27,7 @@ body {
   border-width: 3;
   border-style: solid;
   margin: 1vh;
+  border-radius: 15px;
 }
 
 .mail {
@@ -45,7 +51,7 @@ main {
 
 /* create styles for use for all white main boxes */
 .block {
-  background-color: #fa9ff5;
+  background-color: #1784a591;
   padding: 1vw;
   padding-left: 2vw;
   margin-bottom: 3vh;
@@ -57,6 +63,7 @@ main {
   border:  #4aaaa5;
   border-width: 6;
   border-style: solid;
+  border-radius: 15px;
 }
 
 .block-header {
@@ -96,7 +103,7 @@ main {
   padding: 5px;
 
   /* Visual */
-  background: #fa9ff5;
+  background: #1784a500;
 }
 
 #logo:hover {
@@ -105,7 +112,7 @@ main {
 
 /* override bootstrap navbar styling*/
 .navbar {
-  background: #fa9ff5;
+  background: #1784a591;
   border: none;
   font-family: Texturina;
   color: white;
@@ -189,7 +196,7 @@ main {
   height: 60px;
 
   /* Visual */
-  background-color: #fa9ff5;
+  background-color: #1784a591;
   color: white;
 }
 
